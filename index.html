@@ -1,0 +1,1075 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WarnerBros</title>
+  <link rel="icon" href="assets/logo.ico" type="image/icon type">
+
+  <!--Link eksternal bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!--link bootstrap icon-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!--custom css-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!--link animate css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <!--Link eksternal font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+  <!--Box icons-->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <!--Navbar-->
+  <section>
+    <nav style="background-color: #0a0809;" class="navbar navbar-expand-lg navbar-dark shadow-lg fixed-top">
+      <div class="container">
+        <a style="color: #f7d600; animation-duration: 10s; animation-delay: 5s;"
+          class="navbar-brand animate__animated animate__headShake animate__infinite" href="index.html">Warner<span
+            style="color: rgb(218, 123, 0);">Bros</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a style="color: #EF2F88;" class="nav-link active home" aria-current="page" href="index.html"><i
+                  class="fa-solid fa-house-chimney"></i> Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a style="color: #EF2F88;" class="nav-link active dropdown-toggle" href="#" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-folder-open"></i> Genres
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="action.html">Action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="horror.html">Horror</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="fantasy.html">Fantasy</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+            </li>
+            <li><a class="dropdown-item" href="romance.html">Romance</a></li>
+            <li>
+          </ul>
+          </li>
+          <li class="nav-item">
+            <a style="color: #EF2F88;" class="nav-link active" aria-current="page" href="trendingmovies.html"><i
+                class="fa-solid fa-fire"></i> Trending Movies</a>
+          </li>
+          <li class="nav-item">
+            <a style="color: #EF2F88;" class="nav-link active" href="news-blog.html"><i
+                class="fa-solid fa-newspaper"></i></i>
+              News/Blog</a>
+          </li>
+          </ul>
+          <a href="login.html"><button type="button" class="btn btn-danger"><i class="fa-solid fa-right-to-bracket"></i>
+              Login</button></a>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--Navbar-->
+
+  <!--Caraousel-->
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+        <div style="margin-top: 56px;" class="col-sm-12">
+          <div id="carouselExampleCaptions" class="carousel slide rounded-5 shadow-4-strong" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"><a href="action.html">
+                  <img src="assets/action.jpg" class="d-block w-100 img-fluid" data-bs-interval="1000" alt="gambar">
+                  <div class="carousel-caption d-block h-50">
+                    <h5 class="animate__animated animate__fadeInDown animate__delay-0.4s">Action Movies</h5>
+                </a>
+              </div>
+            </div>
+            <div class=" carousel-item"><a href="horror.html">
+                <img src="assets/horror.jpg" class="d-block w-100 img-fluid" data-bs-interval="1000" alt="gambar">
+                <div class="carousel-caption d-block h-50">
+                  <h5 class="animate__animated animate__fadeInDown animate__delay-0.4s">Horror Movies</h5>
+              </a>
+            </div>
+          </div>
+          <div class="carousel-item"><a href="fantasy.html">
+              <img src="assets/fantasy.jpg" class="d-block w-100 img-fluid" data-bs-interval="1000" alt="gambar">
+              <div class="carousel-caption d-block h-50">
+                <h5 class="animate__animated animate__fadeInDown animate__delay-0.4s">Fantasy Movies</h5>
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item"><a href="romance.html">
+            <img src="assets/romance2.jpg" class="d-block w-100 img-fluid" data-bs-interval="1000" alt="gambar">
+            <div class="carousel-caption d-block h-50">
+              <h5 class="animate__animated animate__fadeInDown animate__delay-0.4s">Romance Movies</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!--Caraousel-->
+
+  <!-- search -->
+  <section>
+    <div class="container p-3">
+      <div class="row">
+        <form action="">
+          <div class="col-sm-12">
+            <div class="input-group">
+              <input style="background-color: black; color: white;" type="search" class="form-control rounded"
+                placeholder="Search movie in here!" role="search" aria-label="Search" aria-describedby="search-addon"
+                required />
+              <button type="submit" class="btn btn-outline-primary">Search</button>
+            </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- search -->
+
+  <!-- Trending Movies title-->
+  <section>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <i style="color: #EF2F88; font-size: 25px;" class="fa-solid fa-fire">
+            <span class="title">Trending Movies</span>
+          </i>
+          <span class="title float-end"><a href="trendingmovies.html"><button class="btn btn-warning">See
+                all</button></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Trending Movies title-->
+
+  <!--Trending Movies slider  -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="romance movie/midnight sun.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/romance/download.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Midnight Sun (2018)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="action movie/justiceleague.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/justiceleague.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Justice League (2017)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="horror movie/it.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/horror/It [It_ Chapter One].jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">It (2017)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/twilight2.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/The Twilight Saga _ Eclipse (1).jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">The Twilight Saga: Breaking Dawn - Part 2 (2012)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="action movie/avengersendgame.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/Nuevo Poster Oficial Avengers_ EndGame (1).jpg" class="card-img img-fluid"
+                      alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Avengers: Endgame (2019)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="romance movie/purple hearts.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/romance/purpleheart.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Purple Hearts (2022)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/harrypotter.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/‘Goblet of Fire’ Wizarding World poster (1).jpg" class="card-img img-fluid"
+                      alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Harry Potter and the Goblet of Fire (2005)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/aliceinwonderland.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/3394c36a-2b81-4b87-9c82-db359987f9cd.jpg" class="card-img img-fluid"
+                      alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Alice in Wonderland (2010)</h5>
+                    </div>
+                  </div>
+                </a></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <!--Trending Movies slider  -->
+
+  <!-- Action Movies title-->
+  <section>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="title">| <i class="fa-sharp fa-solid fa-gun"></i> Action Movies |</span>
+          <span class="title float-end"><a href="action.html"><button class="btn btn-warning">See all</button></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Action Movies title-->
+
+  <!-- Action Movies slider  -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="action movie/topgunmaverick.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/Top Gun_ Maverick (2022).jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Top Gun: Maverick(2022)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="action movie/ironman3.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/IRON MAN 3 _ DEMİR ADAM 3.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Iron Man 3 (2013)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="action movie/avengersendgame.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/Nuevo Poster Oficial Avengers_ EndGame (1).jpg" class="card-img img-fluid"
+                      alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">
+                        Avengers: Endgame (2019)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="action movie/doctorstrange2.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/Doctor Strange in the Multiverse of Madness.jpg" class="card-img img-fluid"
+                      alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Doctor Strange: In The Multiverse of Madness (2022)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="action movie/avengersinfintywar.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/Avengers Infinity War_ Full Movie 2018 720p Hd.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Avengers: Infinity War (2018)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="action movie/justiceleague.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/justiceleague.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Justice League (2017)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="action movie/inception.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/33 Books You Should Read Now, Based On Your Favourite Films.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Inception (2010)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="action movie/whitehousedown.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/action/White House Down Film Poster.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">White House Down (2013)</h5>
+                    </div>
+                  </div>
+                </a></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <!-- Action Movies slider  -->
+
+  <!-- Fantasy Movies title-->
+  <section>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="title">| <i class="fa-sharp fa-solid fa-wand-magic-sparkles"></i> Fantasy Movies |</span>
+          <span class="title float-end"><a href="fantasy.html"><button class="btn btn-warning">See all</button></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Fantasy Movies title-->
+
+  <!-- Fantasy Movies slider  -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="fantasy movie/thewitches.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/THE WITCHES Official HBO Max Trailer And Poster _ Seat42F.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">The Witches (2020)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/avatar.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/AvatarMovie.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Avatar (2009)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/harrypotter.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/‘Goblet of Fire’ Wizarding World poster (1).jpg" class="card-img img-fluid"
+                      alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Harry Potter and the Goblet of Fire (2005)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/effiegray.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/efie gray.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Effie Gray (2014)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/thehousewithaclock.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/More Details And Rumors About the Avengers 4 Reshoots.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">The House with a Clock in Its Walls (2018)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/fantasyisland.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/My Most Anticipated Horror Movies of 2020.jpg" class="card-img img-fluid"
+                      alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Fantasy Island (2020)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/artemisfowl.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/The Best Quotes From Disney's Artemis Fowl - Mama's Geeky.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Artemis Fowl (2020)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="fantasy movie/thenutracker.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/fantasy/Misty Copeland Adds the Magic to THE NUTCRACKER AND THE FOUR REALMS!.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">The Nutcracker and the Four Realms (2020)</h5>
+                    </div>
+                  </div>
+                </a></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <!-- Fantasy Movies slider  -->
+
+
+  <!-- Romance Movies title-->
+  <section>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="title">| <i class="fa-sharp fa-solid fa-heart"></i> Romance Movies |</span>
+          <span class="title float-end"><a href="romance.html"><button class="btn btn-warning">See all</button></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Romance Movies title-->
+
+  <!-- Romance Movies slider  -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="romance movie/purple hearts.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/romance/purpleheart.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Purple Hearts (2022)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="romance movie/if i stay.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/romance/If I stay_.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">If I Stay (2014)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="romance movie/la la land.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/romance/La La Land (2016).jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">La La Land (2016)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="romance movie/6 years.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/romance/55 Romantic Movies That Made Us Laugh And Ugly Cry Uncontrollably.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">6 Years (2015)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="romance movie/five feet apart.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/romance/Five Feet Apart Movie First Look HD Poster - Social News XYZ.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Five Feet Apart (2019)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="romance movie/love under the lemon tree.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/romance/Love Under the Lemon Tree (2022).jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Love Under the Lemon Tree (2022)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="romance movie/midnight sun.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/romance/download.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Midnight Sun (2018)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="romance movie/clouds.html">
+                  <div class="card text-bg-dark">
+                    <img
+                      src="assets/romance/7 séries e filmes do Disney Plus que fazem valer a assinatura » STEAL THE LOOK.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Clouds (2020)</h5>
+                    </div>
+                  </div>
+                </a></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <!-- Romance Movies slider  -->
+
+
+  <!-- Horror Movies title-->
+  <section>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <span class="title">| <i class="fa-sharp fa-solid fa-ghost"></i> Horror Movies |</span>
+          <span class="title float-end"><a href="horror.html"><button class="btn btn-warning">See all</button></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section> <!-- Horror Movies title-->
+
+  <!-- Horror Movies slider  -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><a href="horror movie/the exorcist.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/horror/The Exorcist (1973) [1500×2225] by Nick Charge.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">The Exorcist (1973)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="horror movie/annabelle.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/horror/Annabelle Comes Home - Official Trailer.jpg" class="card-img img-fluid"
+                      alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Annabelle Comes Home (2019)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="horror movie/a quiet place.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/horror/Top 9 Movies Like 'A Quiet Place' No One Should Miss Out On.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">A Quiet Place (2018)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="horror movie/rings.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/horror/cdf654ab-cdb0-4317-bbf3-ffa922812099.jpg" class="card-img img-fluid"
+                      alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">Rings (2017)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="horror movie/no escape.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/horror/Horror Film No Escape Debuts Interesting Trailer, Out September 18th.png"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">No Escape (2015)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="horror movie/it.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/horror/It [It_ Chapter One].jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">It (2017)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="horror movie/the shed.html">
+                  <div class="card text-bg-dark">
+                    <img src="assets/horror/The Shed.jpg" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">The Shed (2019)</h5>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="swiper-slide"><a href="horror movie/in the tall grass.html">
+                  <div class="card text-bg-dark">
+                    <img
+                      src="assets/horror/In the Tall Grass_ Release Date and Trailer for Netflix Stephen King & Joe Hill Movie.jpg"
+                      class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title"><i class="fa-solid fa-play"></i></h5>
+                      <h5 class="card-title">In the Tall Grass (2019)</h5>
+                    </div>
+                  </div>
+                </a></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <!-- Horror Movies slider  -->
+
+  <!-- Upcoming trailers title & (Youtube)-->
+  <section>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <div><span class="title">| <i style="color: #EF2F88;" class="fa-brands fa-youtube"></i> Upcoming Trailers
+              |</span></div>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-sm-6   mt-3 ">
+          <div class="ratio ratio-16x9">
+            <iframe class="rounded-3" src="https://www.youtube.com/embed/mkomfZHG5q4" title="YouTube video"
+              allowfullscreen></iframe>
+          </div>
+          <hr>
+        </div>
+        <div class="col-sm-6  mt-3 ">
+          <div class="ratio ratio-16x9">
+            <iframe class="rounded-3" src="https://www.youtube.com/embed/EgOiCWTR_JU" title="YouTube video"
+              allowfullscreen></iframe>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Upcoming trailers title & (Youtube)-->
+
+  <!-- News/blog-->
+  <section>
+    <div class="container p-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <div><span class="title">| <i style="color: #EF2F88;" class="fa-solid fa-newspaper"></i> News/Blog |</span>
+            <span class="title float-end"><a href="news-blog.html"><button class="btn btn-warning">See all</button></a>
+          </div>
+        </div>
+      </div>
+      <!-- News/blog title-->
+
+      <div class="row">
+        <div class="col-sm-6  mt-3">
+          <img class="img-fluid rounded-3"
+            src="assets/news img/Tom-Holland-and-Jacob-Batalon-in-Spider-Man-No-Way-Home-ending.jpg" alt="">
+          <div class="text-light mt-1"
+            style="font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 900;">
+            No Way Home Ned Actor Shares Emotional Reaction To MCU Movie's Ending
+          </div>
+          <div class="mt-1 text-light">
+            Spider-Man: No Way Home star Jacob Batalon shares his emotional reaction to being part of the MCU and
+            potentially saying goodbye to his character Ned Leeds after Spidey's most recent outing.
+          </div>
+          <div class="mt-1 text-white-50 text-end">
+            Friday, 29-March-2022
+          </div>
+          <div class="mt-3 text-end">
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal3">See
+              more</button>
+          </div>
+          <hr>
+        </div>
+        <div class="col-sm-6  mt-3">
+          <img class="img-fluid rounded-3" src="assets/news img/The-marvels-monica-rambeau-ms-marvel-carol-danvers.jpg"
+            alt="">
+          <div class="text-light mt-1"
+            style="font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 900;">
+            The Marvels Tease Sets Up An Even More Powerful Captain Marvel
+          </div>
+          <div class="mt-1 text-light">
+            Captain Marvel has already displayed her immense powers in the Marvel Cinematic Universe, but a recent
+            interview has teased the possibility of her being even more powerful in The Marvels.
+          </div>
+          <div class="mt-1 text-white-50 text-end">
+            Thursday, 28-March-2022
+          </div>
+          <div class="mt-3 text-end">
+            <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal6">See
+              more</button>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- News/blog-->
+
+  <!-- Modal berita Spiderman -->
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel3">No Way Home Ned Actor Shares Emotional Reaction
+            To MCU Movie's Ending</h1>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid"
+            src="assets/news img/Tom-Holland-and-Jacob-Batalon-in-Spider-Man-No-Way-Home-ending.jpg" alt="">
+          <hr>
+          <center>
+            <h6><i class="fa-solid fa-user"></i> Connor Williams</h6>
+            <h6><i class="fa-solid fa-clock"></i> Published 4 Days Ago</h6>
+          </center>
+          <hr>
+          <div class="text-black" style="text-align: left;">
+            Tom Holland and Jacob Batalon in Spider Man No Way Home ending
+            Spider-Man: No Way Home star Jacob Batalon shares his emotional reaction to being part of the
+            MCU and potentially saying goodbye to his character Ned Leeds after Spidey's most recent outing.
+            Releasing late in 2021, Spider-Man: No Way Home not only closed the narrative arcs of Tom
+            Holland's first trilogy as Marvel's web-swinging icon, but also culminated in the joining of
+            three generations worth of the titular character. <br><br> To the delights of moviegoers, Tobey
+            Maguire and Andrew Garfield both reprized their roles as different iterations of Spider-Man,
+            allying with Holland to face off against fellow franchise veterans Willem Dafoe, Alfred Molina
+            and Jamie Foxx. <br><br> Though it was not only the heroes of an older on-screen generation that
+            aided Holland's Spidey in his biggest test yet, but also Batalon's wise-cracking and magically
+            gifted best-friend Ned, alongside the equally bold and resourceful Michelle "MJ" Jones played by
+            Zendaya.
+            <br><br>
+            This triad of the titular hero backed up by his unwaveringly loyal companions was already one of
+            the more popular in the MCU; making them part of the wider arcs of returning characters from
+            previously beloved generations of the comic-book movie genre only increased this
+            popularity.<br><br>
+            However, after the emotional ending of Spider-Man: No Way Home, in which the entire world's
+            memory of Peter Parker was erased, it is yet to be seen whether the trio will ever
+            reunite.<br><br>
+            <img class="img-fluid" src="assets/news img/Spider-Man-No-Way-Home-Ending-Peter-Ned-and-MJ.jpg" alt="">
+            <br><br>
+            While it hasn't been officially added to the release calendar yet, Kevin Feige confirmed the
+            MCU's Spider-Man 4 is in development, with Holland being eyed to reprise the titular role again.
+            Sony is expecting director Jon Watts and Zendaya to return for Spider-Man 4 as well, but
+            nothing's been confirmed.
+            <br><br>
+            Given the success of the Spider-Man: Homecoming trilogy, it's understandable why the studio
+            would be interested in keeping the core team intact. Holland's chemistry with Batalon and
+            Zendaya served as the emotional core of Spider-Man's solo MCU outings, and viewers would enjoy
+            seeing them onscreen again. <br><br> However, a quick reunion between the three would run the
+            risk of
+            undoing Spider-Man: No Way Home's poignant ending. As Batalon notes, No Way Home's conclusion
+            could allow for more Spider-Man adventures with a different supporting cast. A Spider-Man 4
+            could still be a ways off however, as Marvel makes its way through the Multiverse Saga.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal berita spiderman -->
+
+
+  <!-- Modal berita captain-marvels -->
+  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel6">The Marvels Tease Sets Up An Even More Powerful
+            Captain Marvel</h1>
+        </div>
+        <div class="modal-body">
+          <img class="img-fluid" src="assets/news img/The-marvels-monica-rambeau-ms-marvel-carol-danvers.jpg" alt="">
+          <hr>
+          <center>
+            <h6><i class="fa-solid fa-user"></i> James Eddy</h6>
+            <h6><i class="fa-solid fa-clock"></i> Published 2 Weeks Ago</h6>
+          </center>
+          <hr>
+          <div class="text-black" style="text-align: left;">
+            Captain Marvel has already displayed her immense powers in the Marvel Cinematic Universe, but a
+            recent interview has teased the possibility of her being even more powerful in The Marvels.
+            <br><br> Since making her onscreen debut in Captain Marvel, Carol Danvers/Captain Marvel (Brie
+            Larson) has made limited appearances in the MCU, appearing only in Avengers: Endgame, the
+            mid-credit scene in Shang-Chi and the Legend of the Ten Rings, and in a brief cameo in Ms.
+            Marvel. Perhaps, inevitably, this will change with the release of The Marvels, where she will be
+            joined by her superfan Kamala Khan/Ms. Marvel (Iman Vellani) and her best friend’s daughter
+            Monica Rambeau (Teyonah Parris). <br><br> Details on what to expect from the Nia
+            DaCosta-directed sequel have been limited. However, Fast and Furious 10 cast member, Brie
+            Larson, has suggested that The Marvels will show an uneasy team-up between the three main
+            characters.
+            <br><br>
+            This unease was caused, in part, by the anger Rambeau had shown towards Danvers in Wandavision,
+            and the swapping of powers which was hinted at by Captain Marvel’s brief appearance in Ms.
+            Marvel and in footage from The Marvels revealed at the D23 Expo.<br><br>
+            In addition, Brie Larson has hinted at the possibility of her character’s powers being expanded
+            in comparison to what audiences have seen before. In an interview, she described the physical
+            strain that training for The Marvels had taken before adding, “what's different with this movie
+            from the first one is that Carol didn't fly until the end, so I didn't have as much wire work
+            stuff” (via EW).<br><br>
+            <img class="img-fluid" src="assets/news img/Monica-Rambeau---Captain-Marvel---Ms-Marvel.jpg" alt="">
+            <br><br>
+            This certainly suggests that Carol Danvers is fully embracing her powers. After all, Captain
+            Marvel was an origin story in which she didn’t do much flying and while her most powerful moment
+            in Avengers: Endgame involved her flying in and single-handedly destroying Thanos' Sanctuary II
+            flagship, her screentime was still rather limited.
+            <br><br>
+            As a result, the implication that Captain Marvel will spend a significant amount of time in
+            flight during The Marvels may suggest that the movie would show off how powerful she had become
+            and push her powers further than had been seen before.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal berita captain-marvels -->
+
+
+  <!-- Footer -->
+  <section>
+    <footer style="background-color: #0e0d0d;" class="text-white pt-5 pb-4">
+      <div class="container text-center">
+        <div class="row text-center">
+          <div class="col-sm-3 mx-auto mt-3">
+            <a style="text-decoration: none;" href="index.html">
+              <h5 class=" mb-4 font-weight-bold judul"
+                style="color: rgb(238, 153, 43) ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: 900;">
+                <span class="judul" style="color:#f5176c">Warner</span>Bros
+              </h5>
+            </a>
+            <p>WarnerBros is a website that provides free movie and tv series streaming services.
+            </p>
+          </div>
+
+          <div class="col-sm-3 mx-auto mt-3">
+            <h5 Services class="text-uppercase mb-4 font-weight-bold" style="color:rgb(238, 153, 43)">
+              Services </h5>
+            <p class="Judul2">
+              <a href="index.html" style="text-decoration: none; color: #fff">Home</a>
+            </p>
+            <p class="Judul2">
+              <a href="trendingmovies.html" style="text-decoration: none; color:#fff">Trending Movies</a>
+            </p>
+            <p class="Judul2">
+              <a href="genres.html" style="text-decoration: none; color:#fff">Genres</a>
+            </p>
+            <p class="Judul2">
+              <a href="news-blog.html" style="text-decoration: none; color:#ffff">News/Blog</a>
+            </p>
+          </div>
+
+
+          <div class="col-sm-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold" style="color: rgb(238, 153, 43)">Genres</h5>
+            <div class="description2">
+              <p class="Judul2">
+                <a href="horror.html" style="text-decoration: none; color:#ffff">Horror</a>
+              </p>
+              <p class="Judul2">
+                <a href="fantasy.html" style="text-decoration: none; color:#fff">Fantasy</a>
+              </p>
+              <p class="Judul2">
+                <a href="romance.html" style="text-decoration: none; color:#ffff">Romance</a>
+              </p>
+              <p class="Judul2">
+                <a href="action.html" style="text-decoration: none; color:#ffff">Action</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-3 mt-3">
+            <div class="content">
+              <h5 class="text-uppercase font-weight-bold" style="color:rgb(238, 153, 43)">Download app
+              </h5><br>
+              <a href="#">
+                <img class="img-fluid" src="assets/app-store-png-logo-33123 (3).png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="mb-4">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <p> &copy; Copyright 2024 All right reserved by
+              <a href="index.html" style="text-decoration: none;">
+                <strong style="color: #f5176c"> Warner<span style="color: rgb(238, 153, 43)">Bros</span></strong></a>
+            </p>
+          </div>
+          <div class="col-sm-12 text-center">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px; border-radius: 50%;"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i
+                    class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i
+                    class="fab fa-google-plus"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i
+                    class="fab fa-youtube"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size:23px;"><i
+                    class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </footer>
+  </section>
+  <!-- Footer -->
+
+
+  <!----Scroll Top!---->
+  <a href="#" class="scrollTop rounded-circle" id="scroll-Top">
+    <i class='bx bx-chevron-up scrollTop_icon'></i>
+  </a>
+
+  <script>
+    // Show Scroll Back To Top //
+    function scrollTop() {
+      const scrollTop = document.getElementById('scroll-Top')
+      // when the scroll is higher than 560 viewport height
+      if (this.scrollY >= 260) scrollTop.classList.add('show-scroll');
+      else scrollTop.classList.remove('show-scroll')
+    }
+    window.addEventListener('scroll', scrollTop)
+  </script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!--link java script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="java script/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
